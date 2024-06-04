@@ -1,0 +1,27 @@
+{
+    "name": "daidalosspec55",
+    "vendorId": "0xFEED",
+    "productId": "0x0000",
+    "menus": [],
+    "keycodes": [],
+    "matrix": { "cols": 12, "rows": 5 },
+    "customKeycodes": [ 
+{		"name": "WkS", "title": "press W + release S", "shortName": "WkS"},
+{		"name": "AkD", "title": "press A + release D", "shortName": "AkD"},
+{		"name": "SkW", "title": "press S + release W", "shortName": "SkW"},
+{		"name": "DkA", "title": "press D + release A", "shortName": "DkA"}
+	],
+    "layouts": {
+        "keymap": [
+          ["0,0","0,1","0,2","0,3","0,4","0,5","0,6","0,7","0,8","0,9","0,10",{"w":1.75},"0,11"],
+          [{"w":1.5},"1,0","1,1","1,2","1,3","1,4","1,5","1,6","1,7","1,8","1,9","1,10",{"w":1.25},"1,11"],
+          [{"w":1.5},"2,0","2,1","2,2","2,3","2,4","2,5","2,6","2,7","2,8","2,9",{"w":2.25},"2,10"],
+          [{"w":2.25},"3,1","3,2","3,3","3,4","3,5","3,6","3,7","3,8",{"w":2.25},"3,9",{"w":1.25},"3,10"],
+          [{"x":0.5,"w":1.25},"4,1",{"x":0.25,"w":1.25},"4,2",{"w":6.25},"4,5",{"w":1.25},"4,9",{"x":0.25,"w":1.25},"4,10"]
+        ]
+    },
+    "build": {
+      "debounce_type": "sym_eager_pk"
+  },
+  "debounce": 25
+}
